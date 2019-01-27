@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+	
+		<title>Simon Redifined</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href='https://fonts.googleapis.com/css?family=Original+Surfer&effect=emboss' rel='stylesheet' type='text/css'>
+         <link rel='stylesheet' href="css/style1.css">
+		<audio id="clip1">
+			<source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3">
+		</audio>
+
+		<audio id="clip2">
+			<source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3">
+		</audio>
+
+		<audio id="clip3">
+			<source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3">
+		</audio>
+
+		<audio id="clip4">
+			<source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3">
+		</audio>
+      	
+	</head>
+
+	<body>
+		
+		<div id="main_circle">
+         <div id="top-left"></div>
+          <div id="top-right"></div>
+          <div id="bottom-left"></div>
+          <div id="bottom-right"></div>
+          <div id="inner_circle">
+          	<div id="title">
+          		MIMIC!
+          	</div>
+          	<div id="switches">
+          		<input type="checkbox" name="power" id="on" class="toggle">
+          		<button class="button" id="start">Start</button>
+          		<input type="checkbox" name="strict" id="strict" class="toggle">
+          	</div>
+          	<div id="text1">
+          		<span>POWER</span><span>STRICT</span>
+          	</div>
+          	<div id="turn"></div>
+          	<div id="text2">
+          		COUNT
+          	</div>
+          </div>
+		</div>
+       <script src="indexjava.js">
+     </script>
+
+	</body>
+
+</html>
